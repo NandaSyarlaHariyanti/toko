@@ -10,7 +10,4 @@
         die("Oops! Koneksi ke database gagal: " . mysqli_connect_error());
     }
 
-    echo "Koneksi ke database berhasil";
-
-    mysqli_close($conn);
 ?>
